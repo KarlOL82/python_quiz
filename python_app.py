@@ -1,5 +1,5 @@
 quiz = {
-    "question3": {
+    "question1": {
         "question": "What is the capital of France?",
         "answer": "Paris"
     },
@@ -39,9 +39,16 @@ for key, value in quiz.items():
     if answer.lower() == value["answer"].lower():
         print("Correct!")
         score = score + 1
-        print("Your score is: ")
+        print("Your score is: " + str(score))
+        print("")
+        print("")
 
     else:
         print("Wrong!")
         print("The correct answer is : " + value['answer'])
         print("Your score is: " + str(score))
+        print("")
+        print("")
+
+print("You got " + str(score) + " out of 7 questions correctly")
+print("Your percentage is " +str(int(score/7 * 100)) + "%")
