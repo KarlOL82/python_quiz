@@ -27,6 +27,14 @@ quiz = {
         "question": "What is the capital of Austria?",
         "answer": "Vienna"
     },
+    "question8": {
+        "question": "What is the capital of Latvia?",
+        "answer": "Riga"
+    },
+    "question9": {
+        "question": "What is the capital of Belarus?",
+        "answer": "Minsk"
+    }
 
 }
 
